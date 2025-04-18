@@ -5,8 +5,8 @@ import { useForm } from 'react-hook-form';
 import { FormData } from '@/types/common';
 import { useRouter } from 'next/navigation';
 import { useUserStore } from '@/store/user';
+import { validateDigitInput } from '@/helpers';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { validateDigitInput } from '@/helpers/validateDigitInput';
 
 const schema = yup
   .object({

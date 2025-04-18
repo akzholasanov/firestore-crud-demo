@@ -1,20 +1,20 @@
-# User List App
+# Firestore CRUD Demo
 
-A simple web application for managing users. You can add, edit, delete, and view detailed information about users.
+A simple user management app powered by Firestore.
+🔗 [Live Demo](https://tz-intern-fawn.vercel.app/)
 
-## Features
+## Features (CRUD)
 
-- **View users list**: Displays a table with user name, email, and age.
-- **Add new user**: Navigate to `/create` to add a new user.
-- **Edit user**: Update user information at `/edit/[id]`.
-- **Delete user**: Remove a user with confirmation.
-- **View user details**: View detailed info at `/user/[id]`.
+- **C** – Create user (`/create`)
+- **R** – Read user list and details (`/`, `/user/[id]`)
+- **U** – Update user (`/edit/[id]`)
+- **D** – Delete user with confirmation
 
-## Technologies Used
+## Tech Stack
 
-- **Next.js**
-- **React Hook Form & Yup**
-- **Tailwind CSS**
-- **Zustand**
-- **Firestore**
-- **Vercel**
+- Next.js
+- React Hook Form + Yup
+- Tailwind CSS
+- Zustand
+- Firestore
+- Vercel

@@ -5,9 +5,9 @@ import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { FormData } from '@/types/common';
 import { useUserStore } from '@/store/user';
+import { validateDigitInput } from '@/helpers';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useParams, useRouter } from 'next/navigation';
-import { validateDigitInput } from '@/helpers/validateDigitInput';
 
 const schema = yup
   .object({
