@@ -1,7 +1,8 @@
 # Firestore CRUD Demo
 
 A simple user management app powered by Firestore.
-🔗 [Live Demo](https://tz-intern-fawn.vercel.app/)
+
+🔗 [Live Demo](https://firestore-crud-demo.vercel.app/)
 
 ## Features (CRUD)
 

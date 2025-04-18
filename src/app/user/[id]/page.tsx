@@ -23,7 +23,7 @@ export default function User() {
           {user ? (
             <div className='w-full flex justify-between border rounded-2xl border-[#323232] p-4'>
               <div className='flex gap-4'>
-                <div className='w-12 h-12 rounded-full bg-[#363636] flex items-center justify-center'>
+                <div className='w-12 h-12 rounded-full flex items-center justify-center'>
                   <CiUser size={24} />
                 </div>
                 <div>
